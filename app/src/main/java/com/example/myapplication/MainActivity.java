@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.dom.Dz1_7_6_2;
+import com.example.dom.Dz1_7_6_3;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(new Dz1_7_6_2(this));
+        setContentView(new Dz1_7_6_3(this));
     }
 }
