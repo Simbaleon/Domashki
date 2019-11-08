@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         setContentView(new Dz1_7_7(this));
 =======
         setContentView(new Dz1_8_7_Simple_animation(this));
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
 >>>>>>> develop
 =======
         setContentView(new Dz1_8_9_Model_Solar_System(this));
+>>>>>>> develop
+=======
+        setContentView(new Dz1_8_10_Pendulums(this));
 >>>>>>> develop
     }
 }
