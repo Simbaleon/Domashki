@@ -16,9 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 <<<<<<< HEAD
+<<<<<<< HEAD
         setContentView(new Dz1_7_7(this));
 =======
         setContentView(new Dz1_8_7_Simple_animation(this));
+>>>>>>> develop
+=======
+        setContentView(new Dz1_8_8_Function_graphs(this));
 >>>>>>> develop
     }
 }
