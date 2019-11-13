@@ -56,7 +56,7 @@ public class CellsActivity extends Activity implements OnClickListener,
                 Cells[i][j] = 0;
                 flags[i][j] = 0;
                 cells[i][j].setBackgroundColor(Color.BLACK);
-                if (Math.random() <= 0.05) {
+                if (Math.random() <= 0.17) {
                     Bombs[i][j] = 1;
                     isDrawn[i][j] = 0;
                     mBombs ++;
