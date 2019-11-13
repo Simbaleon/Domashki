@@ -9,16 +9,21 @@ public class Task {
       {
     	  AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(context);
     	  dlgAlert.setMessage(message);
-    	  dlgAlert.setTitle("Задание");
-    	  dlgAlert.setPositiveButton("OK", null);
-    	  dlgAlert.setCancelable(true);
-    	  dlgAlert.setPositiveButton("Ok",
+    	  dlgAlert.setTitle("Игра окончена");
+    	  dlgAlert.setPositiveButton("Да",
     			    new DialogInterface.OnClickListener() {
     			        public void onClick(DialogInterface dialog, int which) {
     			         
     			        }
     			    });
-    	  dlgAlert.create().show();
+		  dlgAlert.setNegativeButton("Нет", new DialogInterface.OnClickListener() {
+			  public void onClick(DialogInterface dialog, int which) {
+				  System.exit(0);
+			  }
+		  });
+		  dlgAlert.setCancelable(true);
+
+		  dlgAlert.create().show();
       }
       
 }
